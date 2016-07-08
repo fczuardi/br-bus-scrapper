@@ -1,0 +1,33 @@
+{
+  "name": "br-bus-scrapper",
+  "version": "0.1.0",
+  "description": "collection of tools to crawl data from bus schedule webpages",
+  "main": "index.js",
+  "scripts-info": {
+    "download:locations": "Download the files with places info from each bus site setup in the config file"
+  },
+  "scripts": {
+    "info": "npm-scripts-info"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fczuardi/br-bus-scrapper.git"
+  },
+  "keywords": [
+    "scrapper",
+    "bus",
+    "brazil",
+    "trips"
+  ],
+  "author": "Fabricio C Zuardi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fczuardi/br-bus-scrapper/issues"
+  },
+  "homepage": "https://github.com/fczuardi/br-bus-scrapper#readme",
+  "devDependencies": {
+    "download-file": "^0.1.5",
+    "npm-scripts-info": "^0.3.6",
+    "shelljs": "^0.7.0"
+  }
+}
